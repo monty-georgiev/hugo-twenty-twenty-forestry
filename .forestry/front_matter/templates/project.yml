@@ -1,4 +1,20 @@
 ---
 label: Project
 hide_body: false
-fields: []
+fields:
+- name: heading
+  type: text
+  config:
+    required: true
+  label: Heading
+- name: main_text_area
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Main text area
+pages:
+- content/projects/Project X.md

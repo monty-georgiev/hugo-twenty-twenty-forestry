@@ -16,5 +16,3 @@ fields:
     schema:
       format: markdown
   label: Main Text Area
-pages:
-- content/macho/macho.md
