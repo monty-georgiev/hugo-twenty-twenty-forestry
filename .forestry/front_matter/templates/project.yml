@@ -7,19 +7,14 @@ fields:
   config:
     required: true
   label: Heading
-- name: blocks
-  type: blocks
-  label: blocks
-  template_types: []
+- name: description
+  type: textarea
+  default: ''
   config:
-    min: 
-    max: 
-- name: blocks2
-  type: blocks
-  label: blocks2
-  template_types: []
-  config:
-    min: 
-    max: 
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description
 pages:
 - content/projects/project_x1.md
