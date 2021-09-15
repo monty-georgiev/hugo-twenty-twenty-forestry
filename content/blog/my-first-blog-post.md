@@ -9,3 +9,4 @@ tags = []
 title = "My first blog post!"
 
 +++
+This is the digital speedometer that I bought online.
