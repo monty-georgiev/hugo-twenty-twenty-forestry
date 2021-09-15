@@ -2,26 +2,26 @@
 label: Template Copy
 hide_body: false
 fields:
-- type: text
-  name: title
-  label: title
 - type: datetime
   name: date
   label: date
+- type: text
+  name: title
+  label: title
+- type: list
+  name: author
+  label: author
 - type: file
   name: image
   label: image
 - type: list
-  name: author
-  label: author
-- type: list
   name: categories
   label: categories
-- type: list
-  name: tags
-  label: tags
 - type: text
   name: description
   label: description
+- type: list
+  name: tags
+  label: tags
 pages:
 - content/projects/Project X.md
