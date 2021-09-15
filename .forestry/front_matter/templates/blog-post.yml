@@ -1,0 +1,18 @@
+---
+label: Blog Post
+hide_body: true
+fields:
+- name: heading
+  type: text
+  config:
+    required: false
+  label: Heading
+- name: main_text_area
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Main Text Area
