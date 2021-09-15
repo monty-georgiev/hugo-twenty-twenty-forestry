@@ -7,14 +7,12 @@ fields:
   config:
     required: true
   label: Heading
-- name: main_text_area
-  type: textarea
-  default: ''
+- name: blocks
+  type: blocks
+  label: blocks
+  template_types: []
   config:
-    required: false
-    wysiwyg: true
-    schema:
-      format: markdown
-  label: Main text area
+    min: 
+    max: 
 pages:
 - content/projects/Project X.md
