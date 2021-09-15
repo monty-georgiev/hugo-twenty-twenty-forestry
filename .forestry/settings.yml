@@ -18,7 +18,7 @@ sections:
   templates:
   - post
 - type: heading
-  label: Others Pages
+  label: Pages
 - type: directory
   path: content/about
   label: About
