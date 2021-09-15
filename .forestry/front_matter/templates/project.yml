@@ -14,3 +14,12 @@ fields:
   config:
     min: 
     max: 
+- name: blocks2
+  type: blocks
+  label: blocks2
+  template_types: []
+  config:
+    min: 
+    max: 
+pages:
+- content/projects/project_x1.md
