@@ -1,7 +1,14 @@
 +++
+author = ["Martin"]
 blocks = []
+categories = ["Lorem"]
+date = ""
+description = ""
 heading = "Project X"
+image = "/images/image.jfif"
 main_text_area = ""
+tags = ["lorem"]
+title = "Project X"
 
 +++
 What a cool project!
